@@ -734,6 +734,8 @@ on boot
     chmod 0666 /dev/sensorhub
     chown system system /dev/motionhub
     chmod 0666 /dev/motionhub
+    chown system system /sys/class/sensors/libsensor_ver
+    chmod 0664 /sys/class/sensors/libsensor_ver
     chown system system /sys/devices/platform/huawei_sensor/acc_info
     chown system system /sys/devices/platform/huawei_sensor/mag_info
     chown system system /sys/devices/platform/huawei_sensor/gyro_info
