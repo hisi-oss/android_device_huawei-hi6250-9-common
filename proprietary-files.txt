@@ -177,6 +177,14 @@ vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib/hw/android.hardw
 vendor/lib64/hw/keystore.hi6250.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so
 
+# OMX
+vendor/lib/libomx_vxd.so
+vendor/lib/libomx_vxe.so
+vendor/lib/libstagefrighthw.so
+vendor/lib64/libomx_vxd.so
+vendor/lib64/libomx_vxe.so
+vendor/lib64/libstagefrighthw.so
+
 # Perfgenius
 vendor/bin/hw/vendor.huawei.hardware.perfgenius@2.0-service
 vendor/etc/perfgenius_config.xml
