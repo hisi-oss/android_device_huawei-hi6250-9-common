@@ -281,3 +281,7 @@ vendor/lib64/libteec_eid.so
 vendor/lib64/libteec_vendor.so
 vendor/lib64/libstorekeybox.so
 vendor/lib64/libkeymaster3_attestation.so
+
+# Thermal
+vendor/lib/hw/thermal.hi6250.so
+vendor/lib64/hw/thermal.hi6250.so
