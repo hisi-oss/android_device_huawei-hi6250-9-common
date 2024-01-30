@@ -161,4 +161,24 @@
         </interface>
         <fqname>@2.0::ILibteecGlobal/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.wifi</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IHwWifiExt</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.1::IHwWifiExt/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.wifi.supplicant</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@2.1::ISupplicant/default</fqname>
+    </hal>
 </manifest>

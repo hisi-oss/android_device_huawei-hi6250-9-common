@@ -92,5 +92,13 @@ DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 # VNDK
 PRODUCT_USE_VNDK_OVERRIDE := true
 
+# Wifi
+BOARD_HOSTAPD_DRIVER := NL80211
+BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_bcmdhd
+BOARD_WLAN_DEVICE := bcmdhd
+BOARD_WPA_SUPPLICANT_DRIVER := NL80211
+BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_bcmdhd
+WPA_SUPPLICANT_VERSION := VER_0_8_X
+
 # Inherit the proprietary files
 include vendor/huawei/hi6250-9-common/BoardConfigVendor.mk
