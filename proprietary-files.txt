@@ -97,6 +97,32 @@ vendor/lib64/libfacsignedapi_share.so
 vendor/lib64/vendor.huawei.hardware.hwvibrator@1.0.so
 vendor/usr/idc/fingerprint.idc
 
+# Firmware
+vendor/firmware/BCM4345C0_003.001.025.0033.0000_Generic.hcd
+vendor/firmware/CPU_RAM_SCHED.bin
+vendor/firmware/CPU_RAM_WBS.bin
+vendor/firmware/Total.wdk
+vendor/firmware/bfgx_and_wifi_cfg
+vendor/firmware/bfgx_cfg
+vendor/firmware/cr4_asic.bin
+vendor/firmware/cr4_regmem.bin
+vendor/firmware/cr4_regmem_u1.bin
+vendor/firmware/emmc_emer_fw.bin
+vendor/firmware/fw_bcm43455_apsta_hw.bin
+vendor/firmware/fw_bcm43455_hw.bin
+vendor/firmware/fw_bcm43455_test_hw_apsta.bin
+vendor/firmware/hifi_6402.img
+vendor/firmware/hifi_6402_2spk.img
+vendor/firmware/hifi_6402_2wake.img
+vendor/firmware/hifi_6402_tas2smartpa.img
+vendor/firmware/hifi_6402_tas2smartpa_no_wakeup_aec.img
+vendor/firmware/hifi_6402_tas4smartpa.img
+vendor/firmware/hifi_6402_tas4smartpa_no_wakeup_aec.img
+vendor/firmware/nvram43455_hw.txt
+vendor/firmware/nvram43455_hw_vn1.txt
+vendor/firmware/ram_reg_test_cfg
+vendor/firmware/wifi_cfg
+
 # Gatekeeper
 vendor/lib/hw/gatekeeper.hi6250.so
 vendor/lib64/hw/gatekeeper.hi6250.so
