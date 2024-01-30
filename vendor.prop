@@ -28,6 +28,9 @@ ro.fastbootd.available=true
 # GPS
 ro.hardware.hisupl=hi1102
 
+# Media
+debug.stagefright.ccodec=0
+
 # OpenGL
 ro.opengles.version=196610
 
