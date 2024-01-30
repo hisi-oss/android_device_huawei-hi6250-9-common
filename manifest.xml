@@ -45,6 +45,16 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.gnss</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IGnss</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IGnss/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.graphics.allocator</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
@@ -110,6 +120,26 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::ISecureBiometricsFaceRecognize/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.gnss</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>IHWGnss</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.2::IHWGnss/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.hisupl</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISuplclienttoserverInterface</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::ISuplclienttoserverInterface/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.huawei.hardware.hwdisplay</name>

@@ -25,6 +25,9 @@ ro.bt.bdaddr_path=/data/vendor/bluedroid/macbt
 # Fastbootd
 ro.fastbootd.available=true
 
+# GPS
+ro.hardware.hisupl=hi1102
+
 # OpenGL
 ro.opengles.version=196610
 
