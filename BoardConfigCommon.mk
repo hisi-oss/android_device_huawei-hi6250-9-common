@@ -36,6 +36,9 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x0ff88000 -
 # Bluetooth
 BOARD_USES_LIBBT_WRAPPER := true
 
+# Build System
+BUILD_BROKEN_DUP_RULES := true
+
 # Filesystems
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_ODMIMAGE_FILE_SYSTEM_TYPE := ext4
