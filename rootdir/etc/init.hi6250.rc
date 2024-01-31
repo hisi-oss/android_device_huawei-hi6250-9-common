@@ -716,19 +716,6 @@ on boot
     chown system system /sys/class/sensors/als_sensor/als_ud_rgbl_block
 
     # LEDs
-    chown system system /sys/class/leds/lcd_backlight0/brightness
-    chmod 644 /sys/class/leds/lcd_backlight0/brightness
-
-    chown system system /sys/class/leds/red/brightness
-    chown system system /sys/class/leds/red/delay_off
-    chown system system /sys/class/leds/red/delay_on
-    chown system system /sys/class/leds/green/brightness
-    chown system system /sys/class/leds/green/delay_off
-    chown system system /sys/class/leds/green/delay_on
-    chown system system /sys/class/leds/blue/brightness
-    chown system system /sys/class/leds/blue/delay_off
-    chown system system /sys/class/leds/blue/delay_on
-
     chown system system /sys/class/led_alwayson/led_alwayson/led_status
     chown system system /sys/class/led_alwayson/led_alwayson/version_mode
     chown system system /sys/class/led_config/led_config/led_config_status
