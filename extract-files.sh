@@ -80,6 +80,9 @@ function blob_fixup() {
         vendor/lib64/libbt-vendor-bcm.so)
             "${PATCHELF}" --set-soname "libbt-vendor-bcm.so" "${2}"
             ;;
+        vendor/lib*/libwvhidl.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
+            ;;
     esac
 }
 
