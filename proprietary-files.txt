@@ -180,6 +180,26 @@ vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib/hw/android.hardw
 vendor/lib64/hw/keystore.hi6250.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so
 
+# OEMInfo
+vendor/bin/hisecd
+vendor/bin/oeminfo_nvm_server
+vendor/bin/oeminfo_gamma
+vendor/etc/init/hisecd.rc
+vendor/lib/libBootloaderOeminfo.so
+vendor/lib/lib_device_interface.so
+vendor/lib/lib_factory_interface.so
+vendor/lib/lib_mmi_interface.so
+vendor/lib/libhuaweicust.so
+vendor/lib/libnvme.so
+vendor/lib/liboeminfo.so
+vendor/lib64/libBootloaderOeminfo.so
+vendor/lib64/lib_device_interface.so
+vendor/lib64/lib_factory_interface.so
+vendor/lib64/lib_mmi_interface.so
+vendor/lib64/libhuaweicust.so
+vendor/lib64/libnvme.so
+vendor/lib64/liboeminfo.so
+
 # OMX
 vendor/lib/libomx_vxd.so
 vendor/lib/libomx_vxe.so

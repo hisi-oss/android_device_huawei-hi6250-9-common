@@ -564,6 +564,10 @@ on post-fs-data
     chmod 0660 /sys/class/sensors/rpc_sensor/rpc_motion_req
 
 on boot
+    # Oeminfo
+    chmod 0666 /dev/socket/oeminfo_nvm
+    chown system system /dev/socket/oeminfo_nvm
+
     # Fingerprint
     mkdir /data/vendor/log/fingerprint
     chown system system /data/vendor/log/fingerprint
@@ -1196,7 +1200,6 @@ service oeminfo_nvm /vendor/bin/oeminfo_nvm_server
     group system readproc root
     critical
     ioprio rt 4
-    seclabel u:r:oeminfo_nvm:s0
 
 service diagserver /vendor/bin/diagserver
     class main
