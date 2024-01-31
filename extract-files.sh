@@ -63,6 +63,9 @@ function blob_fixup() {
         system_ext/priv-app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk)
             apktool_patch "${2}" "${MY_DIR}/blob-patches/gnss_supl20service_hisi.patch" -r
             ;;
+        vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc)
+            sed -i 's|vendor/preavs|vendor|g' "${2}"
+            ;;
         vendor/lib64/hw/audio.primary_hisi.hi6250.so)
             "${PATCHELF}" --add-needed "libprocessgroup.so" "${2}"
             "${PATCHELF}" --add-needed "libshim_audioparams.so" "${2}"

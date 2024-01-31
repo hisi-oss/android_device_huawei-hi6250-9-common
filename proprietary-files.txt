@@ -82,6 +82,11 @@ vendor/lib64/vendor.huawei.hardware.graphics.gpucommon@1.0.so
 vendor/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so
 vendor/lib64/vendor.huawei.hardware.graphics.mediacomm@2.1.so
 
+# DRM
+preavs/bin/hw/android.hardware.drm@1.1-service.widevine:vendor/bin/hw/android.hardware.drm@1.1-service.widevine
+preavs/etc/init/android.hardware.drm@1.1-service.widevine.rc:vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
+preavs/lib/libwvhidl.so:vendor/lib/libwvhidl.so
+
 # Fingerprint
 vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc
