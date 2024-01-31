@@ -63,6 +63,11 @@ function blob_fixup() {
         system_ext/priv-app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk)
             apktool_patch "${2}" "${MY_DIR}/blob-patches/gnss_supl20service_hisi.patch" -r
             ;;
+        vendor/etc/camera/*|odm/etc/camera/*)
+            sed -i 's/gb2312/iso-8859-1/g' "${2}"
+            sed -i 's/GB2312/iso-8859-1/g' "${2}"
+            sed -i 's/xmlversion/xml version/g' "${2}"
+            ;;
         vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc)
             sed -i 's|vendor/preavs|vendor|g' "${2}"
             ;;
@@ -86,6 +91,9 @@ function blob_fixup() {
             ;;
         vendor/lib64/libbt-vendor-bcm.so)
             "${PATCHELF}" --set-soname "libbt-vendor-bcm.so" "${2}"
+            ;;
+        vendor/lib*/libcamera_algo.so)
+            "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
             ;;
         vendor/lib*/libril-hisi.so)
             "${PATCHELF}" --set-soname "libril-hisi.so" "${2}"

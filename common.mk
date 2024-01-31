@@ -52,6 +52,20 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbt-vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl
+
+PRODUCT_PACKAGES += \
+    vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.vendor \
+    vendor.huawei.hardware.hwfactoryinterface@1.0.vendor \
+    vendor.huawei.hardware.hwfactoryinterface@1.1.vendor \
+    vendor.huawei.hardware.sensors@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    libstdc++.vendor \
+    libui_shim.vendor
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images_vendor
@@ -59,11 +73,6 @@ PRODUCT_PACKAGES += \
 # Connectivity
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/rootdir/etc/connectivity/,$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity)
-
-# Camera
-PRODUCT_PACKAGES += \
-    vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.vendor \
-    vendor.huawei.hardware.sensors@1.0.vendor
 
 # ConfigStore
 PRODUCT_PACKAGES += \
