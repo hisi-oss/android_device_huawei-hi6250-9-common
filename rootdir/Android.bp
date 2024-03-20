@@ -38,6 +38,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.performance.rc",
+    src: "etc/init.performance.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "ueventd.hi6250.rc",
     filename: "ueventd.rc",
     src: "etc/ueventd.hi6250.rc",

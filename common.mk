@@ -253,6 +253,7 @@ PRODUCT_PACKAGES += \
     init.hi6250.rc \
     init.hi6250.usb.rc \
     init.override.rc \
+    init.performance.rc \
     ueventd.hi6250.rc
 
 PRODUCT_COPY_FILES += \
