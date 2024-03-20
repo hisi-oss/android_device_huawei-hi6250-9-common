@@ -207,6 +207,9 @@ PRODUCT_PACKAGES += \
     TetheringResOverlayHI6250-9 \
     WifiResOverlayHI6250-9
 
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
