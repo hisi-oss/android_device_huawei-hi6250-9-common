@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
     android.hardware.gatekeeper@1.0-impl
 
+# Hisi
+PRODUCT_PACKAGES += \
+    hisi_init
+
 # Huawei (stubs)
 PRODUCT_PACKAGES += \
     libchrlog \
