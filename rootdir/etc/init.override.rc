@@ -11,3 +11,11 @@ service vendor.keymaster-3-0 /vendor/bin/hw/android.hardware.keymaster@3.0-servi
     user system
     group system drmrpc
 
+service vendor.hwcomposer-2-2 /vendor/bin/hw/android.hardware.graphics.composer@2.2-service
+    override
+    class hal animation
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+    task_profiles HighPerformance   
