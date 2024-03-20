@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbt-vendor
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images_vendor
+
 # Connectivity
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/rootdir/etc/connectivity/,$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity)
@@ -104,9 +108,8 @@ PRODUCT_COPY_FILES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-impl.recovery \
-    android.hardware.health@2.1-service
+    android.hardware.health-service.hisi \
+    android.hardware.health-service.hisi-recovery
 
 # Hisi
 PRODUCT_PACKAGES += \
