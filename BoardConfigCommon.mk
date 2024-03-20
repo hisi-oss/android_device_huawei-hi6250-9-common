@@ -78,6 +78,10 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := hardware/huawei/releasetools
 
+# RIL
+BOARD_PROVIDES_LIBRIL := true
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Root
 BOARD_ROOT_EXTRA_FOLDERS += \
     3rdmodem \

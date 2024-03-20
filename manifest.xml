@@ -123,6 +123,18 @@
         <fqname>@1.2::INfc/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IRadio</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+        <fqname>@1.1::IRadio/slot1</fqname>
+        <fqname>@1.1::IRadio/slot2</fqname>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.sensors</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -161,6 +173,18 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.1::IExtBiometricsFingerprint/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.hisiradio</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IHisiRadio</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+        <fqname>@1.1::IHisiRadio/slot1</fqname>
+        <fqname>@1.1::IHisiRadio/slot2</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.huawei.hardware.biometrics.hwfacerecognize</name>
@@ -251,6 +275,54 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.0::ILibteecGlobal/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IRadio</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+        <fqname>@2.0::IRadio/slot1</fqname>
+        <fqname>@2.0::IRadio/slot2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.radio.chr</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IRadioChr</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+        <fqname>@1.0::IRadioChr/slot1</fqname>
+        <fqname>@1.0::IRadioChr/slot2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.radio.deprecated</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOemHook</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+        <fqname>@1.0::IOemHook/slot1</fqname>
+        <fqname>@1.0::IOemHook/slot2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.radio.ims</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IRadioIms</name>
+            <instance>rildi</instance>
+            <instance>rildi2</instance>
+        </interface>
+        <fqname>@1.0::IRadioIms/rildi</fqname>
+        <fqname>@1.0::IRadioIms/rildi2</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.huawei.hardware.wifi</name>

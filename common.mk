@@ -178,6 +178,14 @@ PRODUCT_PACKAGES += \
     TetheringResOverlayHI6250-9 \
     WifiResOverlayHI6250-9
 
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    librilutils
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.hi6250 \

@@ -180,6 +180,16 @@ vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib/hw/android.hardw
 vendor/lib64/hw/keystore.hi6250.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so
 
+# Modem
+vendor/etc/modemConfig/balong/basic_name
+vendor/etc/modemConfig/balong/FieldTest.cfg
+vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
+vendor/etc/modemConfig/hids_ue_msg.cfg
+vendor/etc/modemConfig/viacbp82d_log.bcfg
+vendor/etc/modemConfig/VIA/basic_name
+vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg
+vendor/etc/factory_modem.cfg
+
 # OEMInfo
 vendor/bin/hisecd
 vendor/bin/oeminfo_nvm_server
@@ -220,6 +230,33 @@ vendor/lib/vendor.huawei.hardware.perfgenius@2.0.so
 vendor/lib64/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so
 vendor/lib64/libperfgenius_vendor_client.so
 vendor/lib64/vendor.huawei.hardware.perfgenius@2.0.so
+
+# RIL
+vendor/bin/hw/rild
+vendor/etc/init/rild.rc
+vendor/lib/libbalong-ril.so
+vendor/lib/libbalong-ril-1.so
+vendor/lib/libcommril.so
+-vendor/lib/libril.so
+vendor/lib/lib_wifi_sar.so
+vendor/lib/vendor.huawei.hardware.hisiradio@1.0.so
+vendor/lib/vendor.huawei.hardware.hisiradio@1.1.so
+vendor/lib/vendor.huawei.hardware.radio@2.0.so
+vendor/lib/vendor.huawei.hardware.radio.chr@1.0.so
+vendor/lib/vendor.huawei.hardware.radio.deprecated@1.0.so
+vendor/lib/vendor.huawei.hardware.radio.ims@1.0.so
+vendor/lib64/libbalong-ril.so
+vendor/lib64/libbalong-ril-1.so
+vendor/lib64/libcommril.so
+-vendor/lib64/libril.so
+vendor/lib64/lib_wifi_sar.so
+vendor/lib64/vendor.huawei.hardware.hisiradio@1.0.so
+vendor/lib64/vendor.huawei.hardware.hisiradio@1.1.so
+vendor/lib64/vendor.huawei.hardware.radio@2.0.so
+vendor/lib64/vendor.huawei.hardware.radio.chr@1.0.so
+vendor/lib64/vendor.huawei.hardware.radio.deprecated@1.0.so
+vendor/lib64/vendor.huawei.hardware.radio.ims@1.0.so
+vendor/phone.prop
 
 # Sensors
 vendor/lib/hw/sensors.default.so:vendor/lib/hw/sensors.hi6250.so
