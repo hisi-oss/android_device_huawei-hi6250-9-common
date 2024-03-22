@@ -211,55 +211,55 @@
         {
             "PowerHint": "INTERACTION",
             "Node": "CPULittleClusterMinFreq",
-            "Duration": 0,
+            "Duration": 1000,
             "Value": "1306000"
         },
         {
             "PowerHint": "INTERACTION",
             "Node": "CPUBigClusterMinFreq",
-            "Duration": 0,
+            "Duration": 1000,
             "Value": "2112000"
         },
         {
             "PowerHint": "INTERACTION",
             "Node": "DDRMinFreq",
-            "Duration": 0,
+            "Duration": 1000,
             "Value": "800000000"
         },
         {
             "PowerHint": "INTERACTION",
             "Node": "GPUMinFreq",
-            "Duration": 0,
+            "Duration": 1000,
             "Value": "650000000"
         },
         {
             "PowerHint": "INTERACTION",
             "Node": "GPUMaxFreq",
-            "Duration": 0,
+            "Duration": 1000,
             "Value": "680000000"
         },
         {
             "PowerHint": "INTERACTION",
             "Node": "EASSchedBoost",
-            "Duration": 0,
+            "Duration": 1000,
             "Value": "1"
         },
         {
             "PowerHint": "INTERACTION",
             "Node": "TASchedtuneBoost",
-            "Duration": 0,
+            "Duration": 1000,
             "Value": "40"
         },
         {
             "PowerHint": "INTERACTION",
             "Node": "FGSchedtuneBoost",
-            "Duration": 0,
+            "Duration": 1000,
             "Value": "40"
         },
         {
             "PowerHint": "INTERACTION",
             "Node": "SchedtuneBoost",
-            "Duration": 0,
+            "Duration": 1000,
             "Value": "40"
         },
         {
