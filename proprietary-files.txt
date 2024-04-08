@@ -89,12 +89,10 @@ vendor/lib/hw/fingerprint.hi6250.so
 vendor/lib/lib_fpc_tac_shared.so
 vendor/lib/libfaccommon_share.so
 vendor/lib/libfacsignedapi_share.so
-vendor/lib/vendor.huawei.hardware.hwvibrator@1.0.so
 vendor/lib64/hw/fingerprint.hi6250.so
 vendor/lib64/lib_fpc_tac_shared.so
 vendor/lib64/libfaccommon_share.so
 vendor/lib64/libfacsignedapi_share.so
-vendor/lib64/vendor.huawei.hardware.hwvibrator@1.0.so
 vendor/usr/idc/fingerprint.idc
 
 # Firmware
