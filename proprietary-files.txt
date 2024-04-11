@@ -191,13 +191,8 @@ vendor/lib64/libperfgenius_vendor_client.so
 vendor/lib64/vendor.huawei.hardware.perfgenius@2.0.so
 
 # Sensors
-vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service
-vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc
 vendor/lib/hw/sensors.default.so:vendor/lib/hw/sensors.hi6250.so
-vendor/lib/vendor.huawei.hardware.sensors@1.0.so
 vendor/lib64/hw/sensors.default.so:vendor/lib64/hw/sensors.hi6250.so
-vendor/lib64/hw/vendor.huawei.hardware.sensors@1.0-impl.so
-vendor/lib64/vendor.huawei.hardware.sensors@1.0.so
 
 # TEE
 bin/tee_auth_daemon
