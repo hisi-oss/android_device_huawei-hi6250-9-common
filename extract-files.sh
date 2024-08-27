@@ -98,6 +98,9 @@ function blob_fixup() {
         vendor/lib*/libril-hisi.so)
             "${PATCHELF}" --set-soname "libril-hisi.so" "${2}"
             ;;
+        vendor/lib64/libtpp.so)
+            "${SIGSCAN}" -p "e3 03 13 aa d7 f2 ff 97" -P "e3 03 13 aa 1f 20 03 d5" -f "${2}"
+            ;;
         vendor/lib*/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
             ;;
