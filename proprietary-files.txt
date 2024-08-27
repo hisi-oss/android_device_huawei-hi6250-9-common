@@ -491,3 +491,13 @@ vendor/lib64/libkeymaster3_attestation.so
 # Thermal
 vendor/lib/hw/thermal.hi6250.so
 vendor/lib64/hw/thermal.hi6250.so
+
+# Touch
+vendor/bin/hw/vendor.huawei.hardware.tp@1.0-service
+vendor/bin/aptouch_daemon
+vendor/etc/init/aptouch_daemon.rc
+vendor/etc/init/vendor.huawei.hardware.tp@1.0-service.rc
+vendor/lib64/hw/hw_touch_pressure_cal.default.so
+vendor/lib64/hw/hw_touchscreen.default.so
+vendor/lib64/hw/vendor.huawei.hardware.tp@1.0-impl.so
+vendor/lib64/libtpp.so
