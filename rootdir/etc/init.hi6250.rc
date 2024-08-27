@@ -582,6 +582,10 @@ on post-fs-data
     chown audioserver system /data/vendor/log/audio_logs/audio_hook
     restorecon_recursive /data/vendor/log/audio_logs/audio_hook
 
+    # Sensors
+    chown system audio /sys/class/sensors/rpc_sensor/rpc_motion_req
+    chmod 0660 /sys/class/sensors/rpc_sensor/rpc_motion_req
+
 on boot
     # Fingerprint
     mkdir /data/vendor/log/fingerprint
