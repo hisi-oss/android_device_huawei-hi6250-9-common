@@ -33,6 +33,9 @@ drm.service.enabled=true
 # Fastbootd
 ro.fastbootd.available=true
 
+# FM Radio
+ro.config.fm.disable=false
+
 # GPS
 ro.hardware.hisupl=hi1102
 
