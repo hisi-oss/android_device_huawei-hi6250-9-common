@@ -60,6 +60,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        system/lib*/libfm_jni.so)
+            sed -i 's|com/huawei/android/hardware/fmradio/FmReceiverJNI|hisi/fmradio/FmReceiverJNI\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|g' "${2}"
+            ;;
         system_ext/priv-app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk)
             apktool_patch "${2}" "${MY_DIR}/blob-patches/gnss_supl20service_hisi.patch" -r
             ;;

@@ -118,6 +118,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/fingerprint.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/fingerprint.kl
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    HwFMApp2 \
+    hisi.fmradio
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
@@ -228,7 +233,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/hisi \
-    hardware/huawei
+    hardware/huawei \
+    vendor/hisi/opensource/fm-commonsys
 
 # Task profiles
 PRODUCT_COPY_FILES += \
