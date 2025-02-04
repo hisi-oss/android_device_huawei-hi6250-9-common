@@ -66,6 +66,9 @@ function blob_fixup() {
         system_ext/priv-app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk)
             apktool_patch "${2}" "${MY_DIR}/blob-patches/gnss_supl20service_hisi.patch" -r
             ;;
+        vendor/bin/hostapd_hisi)
+            "${PATCHELF}" --add-needed "libhwbinder_shim.so" "${2}"
+            ;;
         vendor/etc/camera/*|odm/etc/camera/*)
             sed -i 's/gb2312/iso-8859-1/g' "${2}"
             sed -i 's/GB2312/iso-8859-1/g' "${2}"
